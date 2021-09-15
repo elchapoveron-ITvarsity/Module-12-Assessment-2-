@@ -1,71 +1,48 @@
-body, html {
- background: #ECEDEF;
- margin: 0;
- padding: 0;
+<style>
+h1 {
+	text-align: center;
+	padding: 23px;
+	background-color: skyblue;
+	color: white;
+	}
+
+#clear{
+width: 270px;
+border: 3px solid gray;
+	border-radius: 3px;
+	padding: 20px;
+	background-color: red;
 }
- 
-.container {
- position: fixed;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- background: #fff;
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
- border-radius: 14px;
- padding-bottom: 20px;
- width: 320px;
- 
+
+.formstyle
+{
+width: 300px;
+height: 530px;
+margin: auto;
+border: 3px solid skyblue;
+border-radius: 5px;
+padding: 20px;
 }
-.display {
- width: 100%;
- height: 60px;
- padding: 40px 0;
- background: #FF0509;
- border-top-left-radius: 14px;
- border-top-right-radius: 14px;
+
+
+
+input
+{
+width: 20px;
+background-color: green;
+color: white;
+border: 3px solid gray;
+	border-radius: 5px;
+	padding: 26px;
+	margin: 5px;
+	font-size: 15px;
 }
-.buttons {
- padding: 20px 20px 0 20px;
-}
-.row {
- width: 280px;
- float: left;
-}
-input[type=button] {
- width: 60px;
- height: 60px;
- float: left;
- padding: 0;
- margin: 5px;
- box-sizing: border-box;
- background: #ecedef;
- border: none;
- font-size: 30px;
- line-height: 30px;
- border-radius: 50%;
- font-weight: 700;
- color: #5E5858;
- cursor: pointer;
- 
-}
-input[type=text] {
- width: 270px;
- height: 60px;
- float: left;
- padding: 0;
- box-sizing: border-box;
- border: none;
- background: none;
- color: #ffffff;
- text-align: right;
- font-weight: 700;
- font-size: 60px;
- line-height: 60px;
- margin: 0 25px;
- 
-}
-.red {
- background: #FF0509 !important;
- color: #ffffff !important;
- 
+
+
+#calc{
+width: 250px;
+border: 5px solid black;
+	border-radius: 3px;
+	padding: 20px;
+	margin: auto;
 }
